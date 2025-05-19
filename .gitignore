@@ -1,0 +1,7 @@
+*-backups/
+~*
+*.csv
+*.zip
+Gerber/*
+__pycache__/*
+
