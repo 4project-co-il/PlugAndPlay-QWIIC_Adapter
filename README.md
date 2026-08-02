@@ -1,4 +1,3 @@
-# PlugAndPlay-QWIIC_Adapter
 # PlugAndPlay: QWIIC Adapter
 This is the repository with the files for PlugAndPlay adapter for QWIIC/STEMA QT devices.
 
