@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1a1c72da-99f5-4976-b608-38ee505f2b67")
 	(paper "A5")
 	(title_block
@@ -13,7 +13,9 @@
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -80,14 +82,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -102,14 +104,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -149,10 +151,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -219,19 +224,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -252,8 +257,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -263,14 +268,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -346,10 +351,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -416,41 +424,19 @@
 			)
 			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -471,8 +457,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -482,14 +468,36 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -601,9 +609,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -676,7 +687,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -688,7 +699,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -737,9 +748,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -858,6 +872,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Memory_EEPROM:M24C02-FMN"
 			(exclude_from_sim no)
@@ -993,6 +1008,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "VSS"
@@ -1064,31 +1097,18 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1179,12 +1199,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1275,12 +1300,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1352,7 +1382,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1364,7 +1394,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1395,7 +1425,54 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 13.335 14.605)
+		(end 89.535 71.12)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3871136f-5297-4293-8a66-19f0e7831a2b)
+	)
+	(rectangle
+		(start 90.805 14.605)
+		(end 167.005 60.96)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a68c83dc-09da-4277-a1d5-ce1fae802335)
+	)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 92.075 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ccb053c-3dbe-4081-8a94-ced503ebde0b")
+	)
+	(text "Connectors"
+		(exclude_from_sim no)
+		(at 14.478 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9a8bc7f-87f7-46a0-ad8c-615cc3b2ec1b")
 	)
 	(junction
 		(at 33.02 31.75)
@@ -1875,52 +1952,6 @@
 		)
 		(uuid "fe82eeff-0713-44d8-ba70-e0bff09025e0")
 	)
-	(rectangle
-		(start 13.335 14.605)
-		(end 89.535 71.12)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3871136f-5297-4293-8a66-19f0e7831a2b)
-	)
-	(rectangle
-		(start 90.805 14.605)
-		(end 167.005 60.96)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a68c83dc-09da-4277-a1d5-ce1fae802335)
-	)
-	(text "EEPROM"
-		(exclude_from_sim no)
-		(at 92.075 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ccb053c-3dbe-4081-8a94-ced503ebde0b")
-	)
-	(text "Connectors"
-		(exclude_from_sim no)
-		(at 14.478 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9a8bc7f-87f7-46a0-ad8c-615cc3b2ec1b")
-	)
 	(global_label "INT1"
 		(shape input)
 		(at 35.56 31.75 0)
@@ -2336,7 +2367,7 @@
 			(uuid "7c617bd1-8ccf-4cef-82a4-8228eb02b897")
 		)
 		(instances
-			(project "SAMD21_Dev_Board"
+			(project "QWIIC_adapter"
 				(path "/1a1c72da-99f5-4976-b608-38ee505f2b67"
 					(reference "J2")
 					(unit 1)
@@ -2760,7 +2791,7 @@
 			(uuid "ea4a15dc-f662-42c3-9910-7be564ac5436")
 		)
 		(instances
-			(project ""
+			(project "QWIIC_adapter"
 				(path "/1a1c72da-99f5-4976-b608-38ee505f2b67"
 					(reference "J3")
 					(unit 1)
@@ -2827,7 +2858,7 @@
 			(uuid "72d4d1e8-7fb6-4291-8e33-028f959e2256")
 		)
 		(instances
-			(project "SAMD21_Dev_Board"
+			(project "QWIIC_adapter"
 				(path "/1a1c72da-99f5-4976-b608-38ee505f2b67"
 					(reference "#PWR013")
 					(unit 1)
@@ -2912,7 +2943,7 @@
 			(uuid "905c87c9-652b-4976-b970-d0fcb40af6f4")
 		)
 		(instances
-			(project ""
+			(project "QWIIC_adapter"
 				(path "/1a1c72da-99f5-4976-b608-38ee505f2b67"
 					(reference "J4")
 					(unit 1)
@@ -3132,7 +3163,7 @@
 			(uuid "884f9cc7-4ee0-4906-981c-5d9e3da7f0db")
 		)
 		(instances
-			(project ""
+			(project "QWIIC_adapter"
 				(path "/1a1c72da-99f5-4976-b608-38ee505f2b67"
 					(reference "R2")
 					(unit 1)
@@ -3286,7 +3317,7 @@
 			(uuid "76d49d4c-7bac-49e8-9409-58a630adb46f")
 		)
 		(instances
-			(project "SAMD21_Dev_Board"
+			(project "QWIIC_adapter"
 				(path "/1a1c72da-99f5-4976-b608-38ee505f2b67"
 					(reference "#PWR014")
 					(unit 1)
@@ -3556,7 +3587,7 @@
 			(uuid "d73b037c-abda-4ebc-b12e-a46c3813cf61")
 		)
 		(instances
-			(project "SAMD21_Dev_Board"
+			(project "QWIIC_adapter"
 				(path "/1a1c72da-99f5-4976-b608-38ee505f2b67"
 					(reference "J1")
 					(unit 1)
@@ -3643,7 +3674,7 @@
 			(uuid "3642fdd6-caf1-4145-a58b-a2ab1df611a9")
 		)
 		(instances
-			(project ""
+			(project "QWIIC_adapter"
 				(path "/1a1c72da-99f5-4976-b608-38ee505f2b67"
 					(reference "R1")
 					(unit 1)
@@ -3656,4 +3687,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
